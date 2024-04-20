@@ -8,15 +8,13 @@
 </head>
 
 <body>
-    Raja Hutan: {{ $king }} <br>
-    Daftar Hewan:
-    @foreach ($hewan as $data)
-        @if ($data == 'crocodile')
-            <li>{{ $data }} - dia hewan setia</li>
-        @else
-            <li>{{ $data }}</li>
-        @endif
-    @endforeach
+    
+    <h1>BIODATA DIRI</h1>
+    Nama : {{ $nama }} <br>
+    jenis Kelamin : {{ $jk }} <br>
+    Pendidikan Terakhir : {{ $pendidikan_terakhir }} <br>
+    Pekerjaan : {{ $pekerjaan }}
+
 
 </body>
 
